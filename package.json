@@ -1,0 +1,22 @@
+{
+  "name": "platzifood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css",
+    "watch": "postcss css/tailwind.css -o public/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "Juan Carlos Del Rio <jcdelrioe@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "cssnano": "^4.1.10"
+  }
+}
